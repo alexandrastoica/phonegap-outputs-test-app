@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.helloworld"
+        version   = "1.0.0">
+
+    <name>Outputs Mobileapp Test</name>
+
+    <description>
+        A sample application for outputs.
+    </description>
+
+    <author href="worcester.ac.uk" email="stor1_14@uni.worc.ac.uk">
+        WBS Computing
+    </author>
+
+    <preference name="permissions"                value="none"/>   
+	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+	
+	<access origin="*"/>
+</widget>
