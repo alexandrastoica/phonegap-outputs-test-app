@@ -18,6 +18,7 @@
 
     <preference name="permissions"                value="none"/>   
 	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+	<gap:plugin name="org.apache.cordova.vibration" version="0.3.13" />
 	
 	<access origin="*"/>
 </widget>
