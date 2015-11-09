@@ -9,8 +9,8 @@ function random(){
 	} else{
 		//beep twice
 		navigator.notification.beep(2);
-		//wait for 4 seconds and then vibrate for 3 seconds
-		navigator.notification.vibrate(3000);
+		//vibrate for 5000 miliseconds
+		navigator.notification.vibrate(5000);
 	}
 }
 
