@@ -10,12 +10,7 @@ function random(){
 		//beep twice
 		navigator.notification.beep(2);
 		//wait for 4 seconds and then vibrate for 3 seconds
-		window.setTimeOut(
-			function(){
-				navigator.notification.vibrate(3000)
-			},
-			4000
-		);
+		navigator.notification.vibrate(3000);
 	}
 }
 
